@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Камінь ножиці папір</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+ 
+
+
+	<header class="header">
+		<h1>Камінь-ножиці-папір..</h1>
+	</header>
+	<div class="container">
+
+	    <div class="score-container">
+		    <span class="user"><h1>Ви</h1></span>
+		    <span id="score"></span>
+		    <span class="com"><h1>Компютер</h1></span>
+	    </div>
+
+	     <div class="buttons1">
+           
+	    	<button id="rock" class="bn" onclick="game(this.value)" value="rock"><i class="far fa-hand-rock"></button> 
+
+            <button id="scissors" class="bn" onclick="game(this.value)" value="scissors"><i class="far fa-hand-scissors"></button>
+
+		    <button id="paper" class="bn" onclick="game(this.value)" value="paper"><i class="far fa-hand-paper"></button>
+
+            
+            <button id="lizard" class="bn" onclick="game(this.value)" value="lizard"><i class="far fa-hand-lizard"></button>
+
+		    <button id="spock" class="bn" onclick="game(this.value)" value="spock"><i class="far fa-hand-spock"></button>
+
+	   </div>
+
+
+	   <div id="challenge">
+	   	<div id="you">
+	   	    <div id="YourObject"></div>
+	   	    <div class="who">Ви</div>
+	   	</div>
+	   	<div id="result"><p id="who"><p></div>
+	   	<div id="com">
+	   	    <div id="ComObject"></div>
+	   	    <div class="who">Компютер</div>
+	   	</div>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
